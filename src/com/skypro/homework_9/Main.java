@@ -56,10 +56,6 @@ public class Main {
 
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int index = reverseFullName.length - 1; index >= 0; index--) {
-            if (index == 0) {
-                System.out.println(reverseFullName[index]);
-                break;
-            }
             System.out.print(reverseFullName[index]);
         }
     }
